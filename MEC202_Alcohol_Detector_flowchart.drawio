@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-05-06T06:55:09.066Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="9IZ5un_RneTGACyed2sp" version="21.2.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-06T07:01:10.548Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="E-ikgNMz5QIVRuw3sC_c" version="21.2.8" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="2327" dy="-396" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2327" dy="-476" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -143,33 +143,6 @@
         </mxCell>
         <mxCell id="Y0dImnukWvkpnwRvtKVF-63" value="display average alcohol density" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="68.50999999999999" y="1910" width="131" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="Y0dImnukWvkpnwRvtKVF-64" value="" style="group;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;fontSize=16;" vertex="1" connectable="0" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-596" y="2810" width="410" height="350" as="geometry" />
-        </mxCell>
-        <mxCell id="Y0dImnukWvkpnwRvtKVF-65" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;container=0;fontSize=16;" vertex="1" parent="Y0dImnukWvkpnwRvtKVF-64">
-          <mxGeometry width="410" height="350" as="geometry" />
-        </mxCell>
-        <mxCell id="Y0dImnukWvkpnwRvtKVF-66" value="Abnormal State" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;container=0;fontSize=16;" vertex="1" parent="Y0dImnukWvkpnwRvtKVF-64">
-          <mxGeometry x="10" y="9.487179487179446" width="110" height="28.46153846153846" as="geometry" />
-        </mxCell>
-        <mxCell id="Y0dImnukWvkpnwRvtKVF-67" value="display &quot;abnormal&quot;" style="rounded=1;whiteSpace=wrap;html=1;container=0;fontSize=16;" vertex="1" parent="Y0dImnukWvkpnwRvtKVF-64">
-          <mxGeometry x="30" y="56.923076923076906" width="120" height="56.92307692307692" as="geometry" />
-        </mxCell>
-        <mxCell id="Y0dImnukWvkpnwRvtKVF-68" value="buzzer buzzes" style="rounded=1;whiteSpace=wrap;html=1;container=0;fontSize=16;" vertex="1" parent="Y0dImnukWvkpnwRvtKVF-64">
-          <mxGeometry x="220" y="56.923076923076906" width="120" height="56.92307692307692" as="geometry" />
-        </mxCell>
-        <mxCell id="Y0dImnukWvkpnwRvtKVF-69" value="relay cuts off and red light on" style="rounded=1;whiteSpace=wrap;html=1;container=0;fontSize=16;" vertex="1" parent="Y0dImnukWvkpnwRvtKVF-64">
-          <mxGeometry x="30" y="151.79487179487182" width="120" height="56.92307692307692" as="geometry" />
-        </mxCell>
-        <mxCell id="Y0dImnukWvkpnwRvtKVF-70" value="sends alarm message to target phone" style="rounded=1;whiteSpace=wrap;html=1;container=0;fontSize=16;" vertex="1" parent="Y0dImnukWvkpnwRvtKVF-64">
-          <mxGeometry x="220" y="256.1538461538462" width="120" height="56.92307692307692" as="geometry" />
-        </mxCell>
-        <mxCell id="Y0dImnukWvkpnwRvtKVF-71" value="Have sent message?" style="rhombus;whiteSpace=wrap;html=1;container=0;fontSize=16;" vertex="1" parent="Y0dImnukWvkpnwRvtKVF-64">
-          <mxGeometry x="40" y="237.17769230769227" width="90" height="75.8974358974359" as="geometry" />
-        </mxCell>
-        <mxCell id="Y0dImnukWvkpnwRvtKVF-72" value="voice alarm rings" style="rounded=1;whiteSpace=wrap;html=1;container=0;fontSize=16;" vertex="1" parent="Y0dImnukWvkpnwRvtKVF-64">
-          <mxGeometry x="220" y="151.78999999999996" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Y0dImnukWvkpnwRvtKVF-73" value="Alcohol density is lager than threshold?" style="rhombus;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="59" y="2000" width="150" height="130" as="geometry" />

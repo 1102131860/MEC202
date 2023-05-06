@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-06T07:20:27.854Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="M9I5zXSN8w6eungzlbxj" version="21.2.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-06T07:33:50.498Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="ZhjUN4TtEhhCKgsthtxg" version="21.2.8" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="2327" dy="-396" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -7,28 +7,31 @@
         <mxCell id="Y0dImnukWvkpnwRvtKVF-49" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=16;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-516" y="1340" width="1260" height="920" as="geometry" />
         </mxCell>
-        <mxCell id="Y0dImnukWvkpnwRvtKVF-50" value="" style="group;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=16;html=1;" vertex="1" connectable="0" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="Y0dImnukWvkpnwRvtKVF-50" value="" style="group;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=20;html=1;" vertex="1" connectable="0" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-466" y="1600" width="410" height="350" as="geometry" />
         </mxCell>
-        <mxCell id="Y0dImnukWvkpnwRvtKVF-28" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Abnormal State&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;container=0;fontSize=16;" vertex="1" parent="Y0dImnukWvkpnwRvtKVF-50">
-          <mxGeometry x="10" y="9.49" width="140" height="30.51" as="geometry" />
+        <mxCell id="Y0dImnukWvkpnwRvtKVF-28" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Abnormal State&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;container=0;fontSize=24;" vertex="1" parent="Y0dImnukWvkpnwRvtKVF-50">
+          <mxGeometry x="10" y="9.49" width="170" height="30.51" as="geometry" />
         </mxCell>
-        <mxCell id="Y0dImnukWvkpnwRvtKVF-31" value="display &quot;abnormal&quot;" style="rounded=1;whiteSpace=wrap;html=1;container=0;fontSize=16;" vertex="1" parent="Y0dImnukWvkpnwRvtKVF-50">
+        <mxCell id="Y0dImnukWvkpnwRvtKVF-31" value="display &quot;abnormal&quot;" style="rounded=1;whiteSpace=wrap;html=1;container=0;fontSize=18;" vertex="1" parent="Y0dImnukWvkpnwRvtKVF-50">
           <mxGeometry x="220" y="56.923076923076906" width="120" height="56.92307692307692" as="geometry" />
         </mxCell>
-        <mxCell id="Y0dImnukWvkpnwRvtKVF-32" value="buzzer buzzes" style="rounded=1;whiteSpace=wrap;html=1;container=0;fontSize=16;" vertex="1" parent="Y0dImnukWvkpnwRvtKVF-50">
+        <mxCell id="Y0dImnukWvkpnwRvtKVF-32" value="buzzer buzzes" style="rounded=1;whiteSpace=wrap;html=1;container=0;fontSize=18;" vertex="1" parent="Y0dImnukWvkpnwRvtKVF-50">
           <mxGeometry x="30" y="56.923076923076906" width="120" height="56.92307692307692" as="geometry" />
         </mxCell>
-        <mxCell id="Y0dImnukWvkpnwRvtKVF-33" value="relay cuts off and red light on" style="rounded=1;whiteSpace=wrap;html=1;container=0;fontSize=16;" vertex="1" parent="Y0dImnukWvkpnwRvtKVF-50">
-          <mxGeometry x="30" y="151.79487179487182" width="120" height="56.92307692307692" as="geometry" />
+        <mxCell id="Y0dImnukWvkpnwRvtKVF-111" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Y0dImnukWvkpnwRvtKVF-50" source="Y0dImnukWvkpnwRvtKVF-33" target="Y0dImnukWvkpnwRvtKVF-32">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Y0dImnukWvkpnwRvtKVF-34" value="sends alarm message to target phone" style="rounded=1;whiteSpace=wrap;html=1;container=0;fontSize=16;" vertex="1" parent="Y0dImnukWvkpnwRvtKVF-50">
-          <mxGeometry x="30" y="242.4838461538462" width="120" height="56.92307692307692" as="geometry" />
+        <mxCell id="Y0dImnukWvkpnwRvtKVF-33" value="relay cuts off and red light on" style="rounded=1;whiteSpace=wrap;html=1;container=0;fontSize=18;" vertex="1" parent="Y0dImnukWvkpnwRvtKVF-50">
+          <mxGeometry x="25" y="151.79" width="130" height="58.21" as="geometry" />
         </mxCell>
-        <mxCell id="Y0dImnukWvkpnwRvtKVF-35" value="Have sent message?" style="rhombus;whiteSpace=wrap;html=1;container=0;fontSize=16;" vertex="1" parent="Y0dImnukWvkpnwRvtKVF-50">
+        <mxCell id="Y0dImnukWvkpnwRvtKVF-34" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;sends alarm message to target phone&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;container=0;fontSize=16;" vertex="1" parent="Y0dImnukWvkpnwRvtKVF-50">
+          <mxGeometry x="20" y="240" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Y0dImnukWvkpnwRvtKVF-35" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Have sent message?&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;container=0;fontSize=16;" vertex="1" parent="Y0dImnukWvkpnwRvtKVF-50">
           <mxGeometry x="235" y="231.99769230769226" width="90" height="75.8974358974359" as="geometry" />
         </mxCell>
-        <mxCell id="Y0dImnukWvkpnwRvtKVF-48" value="voice alarm rings" style="rounded=1;whiteSpace=wrap;html=1;container=0;fontSize=16;" vertex="1" parent="Y0dImnukWvkpnwRvtKVF-50">
+        <mxCell id="Y0dImnukWvkpnwRvtKVF-48" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;voice alarm rings&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;container=0;fontSize=16;" vertex="1" parent="Y0dImnukWvkpnwRvtKVF-50">
           <mxGeometry x="220" y="150.25999999999996" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Y0dImnukWvkpnwRvtKVF-94" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="Y0dImnukWvkpnwRvtKVF-50" source="Y0dImnukWvkpnwRvtKVF-31" target="Y0dImnukWvkpnwRvtKVF-32">
@@ -61,41 +64,41 @@
             <mxPoint x="220" y="270" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Y0dImnukWvkpnwRvtKVF-51" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Normal State&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-376" y="1380" width="120" height="40" as="geometry" />
+        <mxCell id="Y0dImnukWvkpnwRvtKVF-51" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Normal State&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-486" y="1355" width="146" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="Y0dImnukWvkpnwRvtKVF-53" value="Start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fontSize=16;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="Y0dImnukWvkpnwRvtKVF-53" value="Start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fontSize=18;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="89" y="1360" width="90" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Y0dImnukWvkpnwRvtKVF-54" value="Set key is pressed?" style="rhombus;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="Y0dImnukWvkpnwRvtKVF-54" value="Set key is pressed?" style="rhombus;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="76.5" y="1513" width="115" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="Y0dImnukWvkpnwRvtKVF-58" value="OLED displays physical quantities" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="Y0dImnukWvkpnwRvtKVF-58" value="OLED displays physical quantities" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="64" y="1419" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="Y0dImnukWvkpnwRvtKVF-59" value="" style="group;fontSize=16;html=1;" vertex="1" connectable="0" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="274" y="1606" width="410" height="340" as="geometry" />
+          <mxGeometry x="274" y="1605" width="410" height="340" as="geometry" />
         </mxCell>
         <mxCell id="Y0dImnukWvkpnwRvtKVF-36" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;container=0;fontSize=16;" vertex="1" parent="Y0dImnukWvkpnwRvtKVF-59">
           <mxGeometry width="410" height="340" as="geometry" />
         </mxCell>
-        <mxCell id="Y0dImnukWvkpnwRvtKVF-37" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Set State&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;container=0;fontSize=16;" vertex="1" parent="Y0dImnukWvkpnwRvtKVF-59">
+        <mxCell id="Y0dImnukWvkpnwRvtKVF-37" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Set State&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;container=0;fontSize=16;" vertex="1" parent="Y0dImnukWvkpnwRvtKVF-59">
           <mxGeometry x="10" y="10" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Y0dImnukWvkpnwRvtKVF-38" value="display &quot;Set&quot;" style="rounded=1;whiteSpace=wrap;html=1;container=0;fontSize=16;" vertex="1" parent="Y0dImnukWvkpnwRvtKVF-59">
+        <mxCell id="Y0dImnukWvkpnwRvtKVF-38" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;display &quot;Set&quot;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;container=0;fontSize=16;" vertex="1" parent="Y0dImnukWvkpnwRvtKVF-59">
           <mxGeometry x="147.5" y="26" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Y0dImnukWvkpnwRvtKVF-43" value="Key 1 is pressed?" style="rhombus;whiteSpace=wrap;html=1;container=0;fontSize=16;" vertex="1" parent="Y0dImnukWvkpnwRvtKVF-59">
+        <mxCell id="Y0dImnukWvkpnwRvtKVF-43" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Key 1 is pressed?&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;container=0;fontSize=16;" vertex="1" parent="Y0dImnukWvkpnwRvtKVF-59">
           <mxGeometry x="52.5" y="113" width="90" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Y0dImnukWvkpnwRvtKVF-44" value="Alcohol threshold increases by 1" style="rounded=1;whiteSpace=wrap;html=1;container=0;fontSize=16;" vertex="1" parent="Y0dImnukWvkpnwRvtKVF-59">
-          <mxGeometry x="225" y="124" width="125" height="60" as="geometry" />
+        <mxCell id="Y0dImnukWvkpnwRvtKVF-44" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Alcohol threshold increases by 1&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;container=0;fontSize=16;" vertex="1" parent="Y0dImnukWvkpnwRvtKVF-59">
+          <mxGeometry x="225" y="120" width="145" height="66" as="geometry" />
         </mxCell>
-        <mxCell id="Y0dImnukWvkpnwRvtKVF-45" value="Key 2 is pressed?" style="rhombus;whiteSpace=wrap;html=1;container=0;fontSize=16;" vertex="1" parent="Y0dImnukWvkpnwRvtKVF-59">
+        <mxCell id="Y0dImnukWvkpnwRvtKVF-45" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Key 2 is pressed?&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;container=0;fontSize=16;" vertex="1" parent="Y0dImnukWvkpnwRvtKVF-59">
           <mxGeometry x="50.5" y="223" width="95" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Y0dImnukWvkpnwRvtKVF-46" value="Alcohol threshold decreases by 1" style="rounded=1;whiteSpace=wrap;html=1;container=0;fontSize=16;" vertex="1" parent="Y0dImnukWvkpnwRvtKVF-59">
-          <mxGeometry x="225" y="233" width="125" height="60" as="geometry" />
+        <mxCell id="Y0dImnukWvkpnwRvtKVF-46" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Alcohol threshold decreases by 1&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;container=0;fontSize=16;" vertex="1" parent="Y0dImnukWvkpnwRvtKVF-59">
+          <mxGeometry x="225" y="233" width="155" height="57" as="geometry" />
         </mxCell>
         <mxCell id="Y0dImnukWvkpnwRvtKVF-102" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="Y0dImnukWvkpnwRvtKVF-59" source="Y0dImnukWvkpnwRvtKVF-38" target="Y0dImnukWvkpnwRvtKVF-43">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -135,19 +138,19 @@
             <mxPoint x="250" y="374" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Y0dImnukWvkpnwRvtKVF-61" value="display whether people surround" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="Y0dImnukWvkpnwRvtKVF-61" value="display whether people surround" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="68.5" y="1736" width="131" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Y0dImnukWvkpnwRvtKVF-62" value="display average light density" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="Y0dImnukWvkpnwRvtKVF-62" value="display average light density" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="68.5" y="1820" width="131" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Y0dImnukWvkpnwRvtKVF-63" value="display average alcohol density" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="Y0dImnukWvkpnwRvtKVF-63" value="display average alcohol density" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="68.50999999999999" y="1910" width="131" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Y0dImnukWvkpnwRvtKVF-73" value="Alcohol density is lager than threshold?" style="rhombus;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="Y0dImnukWvkpnwRvtKVF-73" value="Alcohol density is lager than threshold?" style="rhombus;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="59" y="2000" width="150" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="Y0dImnukWvkpnwRvtKVF-74" value="Set key is pressed again?" style="rhombus;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="Y0dImnukWvkpnwRvtKVF-74" value="Set key is pressed again?" style="rhombus;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="60.129999999999995" y="1617" width="147.75" height="90" as="geometry" />
         </mxCell>
         <mxCell id="Y0dImnukWvkpnwRvtKVF-78" value="Update data at OLED" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">

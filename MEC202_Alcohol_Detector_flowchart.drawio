@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-06T07:33:50.498Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="ZhjUN4TtEhhCKgsthtxg" version="21.2.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-06T07:34:07.419Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="fTZWFfvViVnVf0zbW6ei" version="21.2.8" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="2327" dy="-396" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -153,7 +153,7 @@
         <mxCell id="Y0dImnukWvkpnwRvtKVF-74" value="Set key is pressed again?" style="rhombus;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="60.129999999999995" y="1617" width="147.75" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="Y0dImnukWvkpnwRvtKVF-78" value="Update data at OLED" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="Y0dImnukWvkpnwRvtKVF-78" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Update data at OLED&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="74.00999999999999" y="2160" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Y0dImnukWvkpnwRvtKVF-81" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Y0dImnukWvkpnwRvtKVF-53" target="Y0dImnukWvkpnwRvtKVF-58">

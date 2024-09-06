@@ -8,4 +8,4 @@ Deployed remote data monitoring on the Bafa Cloud platform in a continuous data 
 
 <li> The Ardunio_ESP32 folder holds the code for camera, GPS, Gad sensor connected with ESP32-Wroom </li>
 
-<li> The STM32 folder holds the GMS text, voice alarm, OLED which are drived by STM32F1 board <li>
+<li> The STM32 folder holds the GMS text, voice alarm, OLED which are drived by STM32F1 board </li>
